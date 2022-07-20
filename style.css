@@ -7,7 +7,7 @@ Making the parent div flexbox allows me to center everything within
 my card box can be centered along with the text
 */
 .wrapper {
-    height: 100vh;
+    height: 95vh;
     width: 100vw;
     background-color: hsl(0, 0%, 100%);
     display: flex;
@@ -19,4 +19,20 @@ my card box can be centered along with the text
     background-color: hsl(212, 45%, 89%);
     height: 75%;
     width: 75%;
+    box-shadow: 0 8px 20px #b2bec3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QR {
+    height: 350px;
+    width: 250px;
+    background-color: hsl(0, 0%, 100%);;
+    color: #2d3436;
+    text-align: center;
+}
+
+h3, p {
+    padding: 0 10px 0 10px;
 }
