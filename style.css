@@ -1,0 +1,22 @@
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+/* 
+Making the parent div flexbox allows me to center everything within
+my card box can be centered along with the text
+*/
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(212, 45%, 89%);
+    height: 75%;
+    width: 75%;
+}
