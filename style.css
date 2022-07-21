@@ -1,3 +1,14 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 body {
     font-family: 'Outfit', sans-serif;
 }
@@ -19,20 +30,36 @@ my card box can be centered along with the text
     background-color: hsl(212, 45%, 89%);
     height: 75%;
     width: 75%;
-    box-shadow: 0 8px 20px #b2bec3;
+    box-shadow: 0 8px 20px #b8c4ca;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .QR {
-    height: 350px;
-    width: 250px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(0, 0%, 100%);;
     color: #2d3436;
     text-align: center;
+    box-shadow: 0 8px 20px #b8c4ca;
+    border-radius: 20px;
+}
+
+img {
+    margin: auto;
+    width: 230px;
+    border-radius: 20px;
+    
 }
 
 h3, p {
-    padding: 0 10px 0 10px;
+    padding: 0 15px 10px 15px;
 }
+
+
+
