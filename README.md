@@ -1,7 +1,7 @@
 
 ## Welcome! 👋
 
-Here is my newbie solution for qr code
+Here is my newbie solution for qr code [Kasib-hub QR code component](https://kasib-hub.github.io/qr-code-component/)
 
 ## Challenges 🤯
 
